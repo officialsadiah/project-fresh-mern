@@ -19,8 +19,6 @@ margin: 0 auto;
 
 .box{
     display: flex;
-    align-items: center; 
-    /* to make the items vertically centered */
 }
 /* ==========================
         common CSS end
@@ -33,6 +31,11 @@ nav{
     background: #FAE3B6;
    padding: 47px 0px;
 }
+nav .box{ 
+     align-items: center; 
+    /* to make the items vertically centered */
+}
+
 .logo-part{
     width: 15%; 
 }
@@ -86,4 +89,38 @@ column-gap: 59px;
 }
 /* ==========================
         Navbar  end
+============================= */
+/* ==========================
+        banner design  start
+============================= */
+.banner{
+    background: #FAE3B6;
+    padding-top: 123px;
+    padding-bottom: 102px;
+}
+.left-part{
+    width: 50%;
+}
+.left-part h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    width: 540px;
+}
+.left-part p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    width: 530px;
+    padding-top: 38px;
+    padding-bottom: 76px;
+}
+
+.right-part{
+    width: 50%;
+}
+/* ==========================
+        banner design  end
 ============================= */
