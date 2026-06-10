@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ==========================
+        common CSS start
+============================= */
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+.container{
+width: 1280px;
+margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center; 
+    /* to make the items vertically centered */
+}
+/* ==========================
+        common CSS end
+============================= */
+
+/* ==========================
+        Navbar  start
+============================= */
+nav{
+    background: #FAE3B6;
+   padding: 47px 0px;
+}
+.logo-part{
+    width: 15%; 
+}
+.menu-part{
+    width: 65%;
+}
+
+.menu-part ul{
+display: flex;
+justify-content: center;
+/* so the whole menu will be centered of 60% */
+column-gap: 59px;
+}
+
+.menu-part ul li a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+
+.button-part{
+    width: 20%;
+    text-align: right;
+/* to make the button part right align so the web will be alligned */
+}
+.button-part a{
+    background: #FDBB57;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); 
+    box-shadow: 0px 4px 4px 0px transparent;
+    /* to make boxed shadow by using google (box shadow genarator) */
+    transition: .4s;
+}
+ 
+
+.button-part a:hover{
+    background: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);}
+
+.button-part a:last-child{
+    margin-left: 10px;
+}
+/* ==========================
+        Navbar  end
+============================= */
