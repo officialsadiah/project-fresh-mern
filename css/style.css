@@ -98,17 +98,17 @@ column-gap: 59px;
     padding-top: 123px;
     padding-bottom: 102px;
 }
-.left-part{
+.banner .left-part{
     width: 50%;
 }
-.left-part h1{
+.banner .left-part h1{
     font-size: 64px;
     font-weight: 600;
     color: #000000;
     font-family: "Poppins", sans-serif;
     width: 540px;
 }
-.left-part p{
+.banner .left-part p{
     font-size: 22px;
     font-weight: 400;
     color: #000000;
@@ -118,7 +118,19 @@ column-gap: 59px;
     padding-bottom: 76px;
 }
 
-.right-part{
+.banner .left-part a{
+    background: black;
+    color: #FFFFFF;
+    padding: 25px 91px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+
+
+}
+
+.banner .right-part{
     width: 50%;
 }
 /* ==========================
